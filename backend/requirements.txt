@@ -1,0 +1,16 @@
+# ChatDoc backend dependencies (tested with Python 3.12; works on Python 3.11+)
+Django~=5.1.15
+djangorestframework~=3.17.2
+django-cors-headers~=4.9.0
+python-dotenv~=1.2.2
+mysqlclient~=2.2
+
+# RAG stack
+PyMuPDF~=1.28.2
+chromadb~=1.5.9
+sentence-transformers~=6.1
+openai~=3.35
+
+# Testing
+pytest~=9.1
+pytest-django~=4.14

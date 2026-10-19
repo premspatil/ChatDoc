@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+db.sqlite3
+staticfiles/
+
+# Runtime data (uploaded PDFs and vector database)
+backend/media/*
+!backend/media/.gitkeep
+backend/chroma_db/
+
+# Node
+node_modules/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
